@@ -1,4 +1,25 @@
+/* HEADER */
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5px;
+    margin-bottom: 60px;
+    background-color: #FF6900;
+    color: white;
+
+}
+
+.logo{
+    max-width: 180px;
+}
+
+
+
+
 /* MAIN */
+
 .row{
     display: flex;
     flex-wrap: wrap;
@@ -18,11 +39,17 @@
     display: none;
 }
 
-.img-primary{
-    position: absolute;
-    z-index: 1;
+.img-secondary{
+    display: none;
 }
 
-.img-secondary{
-    z-index: 0;
+.image:hover .img-secondary{
+    display: block;
 }
+
+.img-text{
+    position: absolute;
+    bottom: 50px;
+    z-index: 2;
+}
+

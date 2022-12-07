@@ -12,21 +12,25 @@
 }
 
 .discount{
-	position: absolute;
 	background-color: red;
 	color: white;
 	padding: 2px 5px;
 	z-index: 2;
-	margin-top: 32rem;
-	margin-left: -24rem;
 }
 
 .sostenibilità{
-	position: absolute;
 	background-color: green;
 	color: white;
 	padding: 2px 5px;
-	margin-top: 32rem;
-	margin-left: -21rem;
 	z-index: 2;
+}
+
+.main-header a{
+	text-decoration: none;
+	color: white;
+	font-weight: 500;
+}
+
+.main-header i{
+	color: white;
 }
