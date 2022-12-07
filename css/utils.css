@@ -12,21 +12,21 @@
 }
 
 .discount{
-	position: relative;
+	position: absolute;
 	background-color: red;
 	color: white;
 	padding: 2px 5px;
 	z-index: 2;
-	display: inline-block;
-	margin-top: 25rem;
+	margin-top: 32rem;
+	margin-left: -24rem;
 }
 
 .sostenibilità{
-	position: relative;
+	position: absolute;
 	background-color: green;
 	color: white;
 	padding: 2px 5px;
-	display: inline-block;
+	margin-top: 32rem;
+	margin-left: -21rem;
 	z-index: 2;
-	margin-top: 25rem;
 }
