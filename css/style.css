@@ -1,0 +1,28 @@
+/* MAIN */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 20px;
+
+}
+
+.card{
+    width: 32%;
+    position: relative;
+}
+
+.card:hover .img-primary{
+    display: none;
+}
+
+.img-primary{
+    z-index: 1;
+    position: absolute;
+}
+
+.img-secondary{
+    z-index: 0;
+    position: absolute;
+}

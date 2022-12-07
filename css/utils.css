@@ -1,0 +1,32 @@
+/* Utils */
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.clearfix::after {
+	content: '';
+	clear: both;
+	display: table;
+}
+
+.discount{
+	position: relative;
+	background-color: red;
+	color: white;
+	padding: 2px 5px;
+	z-index: 2;
+	display: inline-block;
+	margin-top: 25rem;
+}
+
+.sostenibilità{
+	position: relative;
+	background-color: green;
+	color: white;
+	padding: 2px 5px;
+	display: inline-block;
+	z-index: 2;
+	margin-top: 25rem;
+}
