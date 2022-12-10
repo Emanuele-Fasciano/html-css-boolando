@@ -1,21 +1,20 @@
 /* HEADER */
 
 .main-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 5px;
+    position: fixed;
+    top:0;
+    width: 100%;
     margin-bottom: 60px;
+    padding: 10px;
     background-color: #FF6900;
     color: white;
-
+    z-index: 1;
 }
 
 .logo{
     max-width: 180px;
+    cursor: pointer;
 }
-
-
 
 
 /* MAIN */
@@ -25,6 +24,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 20px;
+    margin-top: 100px;
 }
 
 .card{
@@ -50,6 +50,51 @@
 .img-text{
     position: absolute;
     bottom: 50px;
-    z-index: 2;
+}
+
+
+/* DESCRIPTION */
+
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.marca{
+    font-size: .8rem;
+    color: rgb(42, 40, 40);
+}
+
+.article{
+    font-weight: bolder;
+}
+
+.discunted-price{
+    font-size: .9rem;
+    font-weight: 700;
+    color: red;
+}
+
+.full-price{
+    font-size: .9rem;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+
+/* FOOTER */
+
+footer{
+    background-color: rgb(29, 28, 28);
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.info>h3{
+    font-weight: bold;
+}
+
+.info-links>a{
+    font-size: .8rem;
 }
 
